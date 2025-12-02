@@ -40,7 +40,7 @@ function App() {
     }
 
     if (isEmpty) {
-      return <p>Please enter a GitHub username</p>;
+      return <p>Please enter a GitHub username.</p>;
     }
 
     if (!data) return;
