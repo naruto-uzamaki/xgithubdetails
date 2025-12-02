@@ -1,0 +1,28 @@
+.profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background: #fff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Inner spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Elevation shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect for more elevation */
+.card:hover {
+  transform: translateY(-5px); /* Slight lift */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.spanitem {
+  padding: 5px;
+  background-color: lightgray;
+}
